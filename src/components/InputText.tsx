@@ -20,7 +20,7 @@ export interface InputTextIconProps {
 
 function InputTextIcon(props: InputTextIconProps) {
     return(
-        <Slot className='w-6 h-6 text-gray-400'>
+        <Slot className='w-6 h-6 h-12 text-gray-400'>
             {props.children}
         </Slot>
     )
