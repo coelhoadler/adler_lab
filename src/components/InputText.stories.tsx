@@ -8,7 +8,7 @@ export default {
     args: {
         children: [
             <InputText.Icon>
-                <Envelope />
+                <Envelope weight='bold'/>
             </InputText.Icon>,
             <InputText.Input  placeholder='Type your e-mail'/>
         ],
